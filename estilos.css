@@ -1,1 +1,65 @@
+body {
+    display: block;
+}
 
+img {
+    width: 40cap;
+}
+
+nav ul{
+    color: blue;
+}
+
+.explorar-mas{
+    color: rgb(255, 73, 73);
+}
+
+@media screen and (min-width: 1280px) {
+    nav{
+        display: flex;
+        flex-direction: row;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+    
+    nav ul li{
+        padding: 10px;
+    }
+
+    .explorar-mas{
+        display: none;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 769px){
+    nav{
+        display: flex;
+        flex-direction: row;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+    
+    nav ul li{
+        padding: 10px;
+    }
+
+    .explorar-mas{
+        display: none;
+    }
+
+    .content {
+        display:flexbox;
+        flex-direction:row;
+    }
+}
